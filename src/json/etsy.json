@@ -1,0 +1,525 @@
+[
+  {
+    "type": "_text_input",
+    "id": "ced_etsy_template_name",
+    "fields": {
+      "id": "ced_etsy_template_name",
+      "label": {
+        "___$isLiteral": true,
+        "___$string": "Template Name"
+      },
+      "desc_tip": true,
+      "description": {
+        "___$isLiteral": true,
+        "___$string": "Specify the Template Name"
+      },
+      "type": "text",
+      "is_required": true,
+      "class": "wc_input_price"
+    }
+  },
+    {
+      "type": "_hidden",
+      "id": "_umb_etsy_category",
+      "fields": {
+        "id": "_umb_etsy_category",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Etsy Category"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Specify the Etsy category"
+        },
+        "type": "hidden",
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_select",
+      "id": "_etsy_language",
+      "fields": {
+        "id": "_etsy_language",
+        "label": {
+          "___$isLiteral": true,
+          "___$string":"Etsy Shop Language"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Your etsy shop language"
+        },
+        "type": "select",
+        "options": {
+          "en": "English",
+          "de": "German",
+          "es": "Spanish",
+          "fr": "French",
+          "it": "Italian",
+          "ja": "Japanese",
+          "nl": "Dutch",
+          "pl": "Polish",
+          "pt": "Portuguese",
+          "ru": "Russian"
+        },
+        "is_required": true,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_title",
+      "fields": {
+        "id": "_ced_etsy_title",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Title"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Title of the product to be uploaded on etsy.If left blank woocommerce title will be used"
+        },
+        "type": "text",
+        "is_required": true,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_title_pre",
+      "fields": {
+        "id": "_ced_etsy_title_pre",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Title Prefix"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Text to be added before the title"
+        },
+        "type": "text",
+        "is_required": false,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_title_post",
+      "fields": {
+        "id": "_ced_etsy_title_post",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Title Suffix"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Text to be added after the title"
+        },
+        "type": "text",
+        "is_required": false,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_description",
+      "fields": {
+        "id": "_ced_etsy_description",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Description"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Description of the product to be uploaded on etsy.If left blank woocommerce description will be used"
+        },
+        "type": "text",
+        "is_required": true,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_price",
+      "fields": {
+        "id": "_ced_etsy_price",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Price"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Price of the product to be uploaded on etsy.If left blank woocommerce price will be used"
+        },
+        "type": "text",
+        "is_required": true,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_select",
+      "id": "_ced_etsy_markup_type",
+      "fields": {
+        "id": "_ced_etsy_markup_type",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Increase Price By"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Increase price by a certain amount in the actual price of the product when uploading on etsy"
+        },
+        "type": "select",
+        "options": {
+          "Fixed_Increased": "Fixed Increase",
+          "Percentage_Increased": "Percentage Increase"
+        },
+        "class": "wc_input_price"
+      },
+      "required": false
+    },
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_markup_value",
+      "fields": {
+        "id": "_ced_etsy_markup_value",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Markup Value"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Enter the markup value to be added in the price. Eg : 10"
+        },
+        "type": "text",
+        "is_required": false,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_stock",
+      "fields": {
+        "id": "_ced_etsy_stock",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Quantity"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Quantity [ Stock ] of the product to be uploaded on etsy.If left blank quantity price will be used"
+        },
+        "type": "text",
+        "is_required": true,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_tags",
+      "fields": {
+        "id": "_ced_etsy_tags",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Product Tags"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Product tags. Enter upto 13 tags comma ( , ) separated. Do not include special characters"
+        },
+        "type": "text",
+        "is_required": false,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_materials",
+      "fields": {
+        "id": "_ced_etsy_materials",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Product Materials"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Product Materials. Enter upto 13 materials comma ( , ) separated. Do not include special characters"
+        },
+        "type": "text",
+        "is_required": false,
+        "class": "wc_input_price"
+      }
+    },
+    
+
+
+    
+    {
+      "type": "_select",
+      "id": "_ced_etsy_product_list_type",
+      "fields": {
+        "id": "_ced_etsy_product_list_type",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Product Listing Type"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Product Listing type , whether you want to upload the product in active or draft"
+        },
+        "type": "select",
+        "options": {
+          "draft": "Draft",
+          "active": "Active"
+        },
+        "is_required": false,
+        "class": "wc_input_price"
+      }
+    },
+   
+
+
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_processing_min",
+      "fields": {
+        "id": "_ced_etsy_processing_min",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Processing Min"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "The minimum number of days for processing for this listing"
+        },
+        "type": "text",
+        "is_required": true,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_text_input",
+      "id": "_ced_etsy_processing_max",
+      "fields": {
+        "id": "_ced_etsy_processing_max",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Processing Max"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "The maximum number of days for processing for this listing"
+        },
+        "type": "text",
+        "is_required": true,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_select",
+      "id": "_ced_etsy_who_made",
+      "fields": {
+        "id": "_ced_etsy_who_made",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Who Made"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Who made the item being listed"
+        },
+        "type": "select",
+        "options": {
+          "i_did": "I Did",
+          "collective": "Collective",
+          "someone_else": "Someone Else"
+        },
+        "is_required": true,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_select",
+      "id": "_ced_etsy_product_supply",
+      "fields": {
+        "id": "_ced_etsy_product_supply",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Product Supply"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Use of the products"
+        },
+        "type": "select",
+        "options": {
+          "true": "A supply or tool to make things",
+          "false": "A finished product"
+        },
+        "is_required": true,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_select",
+      "id": "_ced_etsy_when_made",
+      "fields": {
+        "id": "_ced_etsy_when_made",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Manufacturing Year"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "When was the item made"
+        },
+        "type": "select",
+        "options": {
+          "made_to_order": "Made to Order",
+          "2020_2021": "2020-2021",
+          "2010_2019": "2010-2019",
+          "2002_2009": "2002-2009",
+          "before_2002": "Before 2002",
+          "2000_2001": "2000-2001",
+          "1990s": "1990s",
+          "1980s": "1980s",
+          "1970s": "1970s",
+          "1960s": "1960s",
+          "1950s": "1950s",
+          "1940s": "1940s",
+          "1930s": "1930s",
+          "1920s": "1920s",
+          "1910s": "1910s",
+          "1900s": "1900s",
+          "1800s": "1800s",
+          "1700s": "1700s",
+          "before_1700": "Before 1700"
+        },
+        "is_required": true,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_select",
+      "id": "_ced_etsy_recipient",
+      "fields": {
+        "id": "_ced_etsy_recipient",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Preferred Audience (Recipient)"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "Preferred Audience or Recipient to use the product"
+        },
+        "type": "select",
+        "options": {
+          "men": "Men",
+          "women": "Women",
+          "unisex_adults": "Unisex Adults",
+          "teen_boys": "Teen Boys",
+          "teen_girls": "Teen Girls",
+          "teens": "Teens",
+          "boys": "Boys",
+          "girls": "Girls",
+          "children": "Children",
+          "baby_boys": "Baby Boys",
+          "baby_girls": "Baby Girls",
+          "babies": "Babies",
+          "birds": "Birds",
+          "cats": "Cats",
+          "dogs": "Dogs",
+          "pets": "Pets",
+          "not_specified": "Not Specified"
+        },
+        "is_required": false,
+        "class": "wc_input_price"
+      }
+    },
+    {
+      "type": "_select",
+      "id": "_ced_etsy_occasion",
+      "fields": {
+        "id": "_ced_etsy_occasion",
+        "label": {
+          "___$isLiteral": true,
+          "___$string": "Occasion"
+        },
+        "desc_tip": true,
+        "description": {
+          "___$isLiteral": true,
+          "___$string": "What is the occasion for this listing"
+        },
+        "type": "select",
+        "options": {
+          "anniversary": "Anniversary",
+          "baptism": "Baptism",
+          "bar_or_bat_mitzvah": "Bar or Bat Mitzvah",
+          "birthday": "Birthday",
+          "canada_day": "Canada Day",
+          "chinese_new_year": "Chinese New Year",
+          "cinco_de_mayo": "Cinco De Mayo",
+          "confirmation": "Confirmation",
+          "christmas": "Christmas",
+          "day_of_the_dead": "Day of the Dead",
+          "easter": "Easter",
+          "eid": "Eid",
+          "engagement": "Engagement",
+          "fathers_day": "Fathers Day",
+          "get_well": "Get Well",
+          "graduation": "Graduation",
+          "halloween": "Halloween",
+          "hanukkah": "Hanukkah",
+          "housewarming": "Housewarming",
+          "kwanzaa": "Kwanzaa",
+          "prom": "Prom",
+          "july_4th": "July 4th",
+          "mothers_day": "Mothers Day",
+          "new_baby": "New Baby",
+          "new_years": "New Years",
+          "quinceanera": "Quinceanera",
+          "retirement": "Retirement",
+          "st_patricks_day": "St. Patricks Day",
+          "sweet_16": "Sweet 16",
+          "sympathy": "Sympathy",
+          "thanksgiving": "Thanks Giving",
+          "valentines": "Valentines",
+          "wedding": "Wedding"
+        },
+        "is_required": false,
+        "class": "wc_input_price"
+      }
+    }
+  ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

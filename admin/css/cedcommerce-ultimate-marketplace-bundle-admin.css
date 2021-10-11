@@ -1,0 +1,105 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.ced_umb_uppercase {
+	text-transform: uppercase;
+}
+.ced-umb-wrapper {
+	width: 99%;
+}
+.ced_umb_uppercase.ced_umb_page_heading {
+	border-top: 2px solid royalblue;
+	padding: 10px;
+	background-color: #fff;
+}
+.ced_umb_page_heading {
+	border-radius: 4px;
+}
+.ced_umb_content{
+  background-color: #fff;
+  border:1px solid #ccd;
+}
+.ced_umb_mapping_wrap,
+.ced_umb_category_suggestion_wrap {
+	display: flex;
+	padding: 10px;
+	border-radius: 4px;
+  margin-top: 10px;
+}
+.ced_umb_mapping_child_element{
+	width: 40%;
+  margin-right: 10px;
+}
+.cedcommerce-tip {
+  font-size: 12px;
+  color: royalblue;
+}
+.ced_umb_label {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ced_umb_loader ,
+.ced_umb_category_suggestion_wrap,
+.ced_umb_display_config_fields,
+#ced_umb_connect_marketplace{
+  display: none;
+}
+
+.ced_umb_loader {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.52);
+  width: 100%;
+  z-index: 9999;
+  height: 108%;
+}
+.ced_umb_loader img {
+  text-align: center;
+  margin: 0 auto;
+  width: 50px;
+  display: block;
+  margin-top: 25%;
+}
+
+.ced_umb_loader {
+  background-color: rgba(255, 255, 255, 0.6);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+.ced_umb_page_sections_wrap {
+  margin: 10px 0;
+}
+
+.ced_umb_page_sections_wrap .ced_umb_page_sections{
+  color: #3c434a;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-right: 5px;
+}
+
+.ced_umb_page_sections_wrap .active{
+  color: royalblue;
+}
+
+.ced_umb_save_button {
+  margin: 10px;
+}
+
+.ced_umb_mapping_child_element .select2-selection.select2-selection--multiple {
+  min-height: 50px !important;
+  width: 250px !important;
+}
+
+.ced_umb_required {
+  color: red;
+}

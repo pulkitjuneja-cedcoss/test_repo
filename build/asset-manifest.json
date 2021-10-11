@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/css/main.1e8516b6.chunk.css",
+    "main.js": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/js/main.d65a8dce.chunk.js",
+    "main.js.map": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/js/main.d65a8dce.chunk.js.map",
+    "runtime-main.js": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/js/runtime-main.55806a90.js",
+    "runtime-main.js.map": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/js/runtime-main.55806a90.js.map",
+    "static/css/2.3904633c.chunk.css": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/css/2.3904633c.chunk.css",
+    "static/js/2.003cfcdc.chunk.js": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/js/2.003cfcdc.chunk.js",
+    "static/js/2.003cfcdc.chunk.js.map": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/js/2.003cfcdc.chunk.js.map",
+    "index.html": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/index.html",
+    "service-worker.js": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/service-worker.js",
+    "service-worker.js.map": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/service-worker.js.map",
+    "static/css/2.3904633c.chunk.css.map": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/css/2.3904633c.chunk.css.map",
+    "static/css/main.1e8516b6.chunk.css.map": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/css/main.1e8516b6.chunk.css.map",
+    "static/js/2.003cfcdc.chunk.js.LICENSE.txt": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/js/2.003cfcdc.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/$%7Bprocess.env.APP_URL_NAME%7D%20+%20/build/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55806a90.js",
+    "static/css/2.3904633c.chunk.css",
+    "static/js/2.003cfcdc.chunk.js",
+    "static/css/main.1e8516b6.chunk.css",
+    "static/js/main.d65a8dce.chunk.js"
+  ]
+}

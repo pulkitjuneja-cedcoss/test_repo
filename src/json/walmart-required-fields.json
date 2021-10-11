@@ -1,0 +1,163 @@
+[
+    
+    {
+        "code" : "ced_walmart_template_name",
+        "default_value" : null,
+        "description" : "Specify the Template Name",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Template Name",
+        "label_translations" : [ {
+            "locale" : "en",
+            "value" : "Template Name"
+        } ],
+        "required" : true,
+        "roles" : [ {
+            "parameters" : [ ],
+            "type" : "Template Name"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+    },
+    
+    
+    {
+        "code" : "identifier_type",
+        "default_value" : null,
+        "description" : "Unique identifier type your product must have to list on walmart.",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Identifier Type",
+        "label_translations" : [ {
+            "locale" : "en",
+            "value" : "Identifier Type"
+        } ],
+        "required" : true,
+        "roles" : [ {
+            "parameters" : [ ],
+            "type" : "Identifier Type"
+        } ],
+        "type" : "LIST",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : [{"code":"UPC","label":"UPC","label_translations":{"label_translation":{"locale":"en","value":"UPC"}}},{"code":"ISBN","label":"ISBN","label_translations":{"label_translation":{"locale":"en","value":"ISBN"}}},{"code":"GTIN","label":"GTIN","label_translations":{"label_translation":{"locale":"en","value":"GTIN"}}},{"code":"EAN","label":"EAN","label_translations":{"label_translation":{"locale":"en","value":"EAN"}}}],
+        "variant" : false
+    },{
+        "code" : "identifier_value",
+        "default_value" : null,
+        "description" : "Identifier value, for the selected Identifier Type above.",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Identifier Value",
+        "label_translations" : [ {
+            "locale" : "en",
+            "value" : "Identifier Value"
+        } ],
+        "required" : true,
+        "roles" : [ {
+            "parameters" : [ ],
+            "type" : "Identifier Value"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+    },{
+        "code" : "product_brand",
+        "default_value" : null,
+        "description" : null,
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Product Brand",
+        "label_translations" : [ {
+            "locale" : "en",
+            "value" : "Product Brand"
+        } ],
+        "required" : true,
+        "roles" : [ {
+            "parameters" : [ ],
+            "type" : "Product Brand"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+    },{
+        "code" : "markup_type",
+        "default_value" : null,
+        "description" : "Markup to be used to send different price on Walmart.",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Markup Type",
+        "label_translations" : [ {
+            "locale" : "en",
+            "value" : "Markup Type"
+        } ],
+        "required" : true,
+        "roles" : [ {
+            "parameters" : [ ],
+            "type" : "Markup Type"
+        } ],
+        "type" : "LIST",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : [{"code":"fixed_increased","label":"Fixed Increased","label_translations":{"label_translation":{"locale":"en","value":"Fixed Increased"}}},{"code":"percentage_increased","label":"Percentage Increased","label_translations":{"label_translation":{"locale":"en","value":"Percentage Increased"}}}],
+        "variant" : false
+    },{
+        "code" : "markup_value",
+        "default_value" : null,
+        "description" : "Identifier value, for the selected Identifier Type above.",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Markup Value",
+        "label_translations" : [ {
+            "locale" : "en",
+            "value" : "Markup Value"
+        } ],
+        "required" : true,
+        "roles" : [ {
+            "parameters" : [ ],
+            "type" : "Markup Value"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+    },
+    {
+        "code" : "walmart_fulfillmentlagtime",
+        "default_value" : null,
+        "description" : "Shipping time in days from seller to customer (default = 5 days)",
+        "description_translations" : [ ],
+        "example" : null,
+        "hierarchy_code" : "",
+        "label" : "Walmart Fulfillment Lag Time",
+        "label_translations" : [ {
+            "locale" : "en",
+            "value" : "Walmart FulfillmentLagTime"
+        } ],
+        "required" : true,
+        "roles" : [ {
+            "parameters" : [ ],
+            "type" : "Walmart FulfillmentLagTime"
+        } ],
+        "type" : "TEXT",
+        "type_parameter" : null,
+        "values" : null,
+        "values_list" : null,
+        "variant" : false
+    }
+
+]
